@@ -1,21 +1,26 @@
 {
-  "name": "moxier",
-  "displayName": "moxier",
-  "description": "Better Moxer",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.103.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Moxier",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Moxier-color-theme.json"
-      }
-    ]
-  }
+    "name": "moxier",
+    "displayName": "moxier",
+    "description": "Better Moxer",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bibaswan-bhawal/moxier.git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.103.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Moxier",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Moxier-color-theme.json"
+            }
+        ]
+    },
+    "license": "MIT"
 }
